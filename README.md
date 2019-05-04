@@ -12,6 +12,7 @@ A live demo can be found [here](https://user-centric-frontend-project-am-amylmor
 HTML
 CSS
 Javascript
+Bootstrap (v 4.3.1)
 
 ## Features
 
