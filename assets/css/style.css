@@ -1,0 +1,93 @@
+/* Mobile first approach, for extra small devices */
+header, footer {
+    padding-top:30px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+#logo_image {
+    width:150px;
+    height:60px;
+}
+
+.card {
+    margin-top:20px;
+    margin-bottom:20px;
+    
+}
+
+ #countdown {
+        flex-direction:column;
+        font-size:0;
+        justify-content:center;
+        align-items: center;
+        }
+
+#countdown p{
+        font-size: 25px;
+        align-items:center;
+        justify-content: center;
+        text-align:center;
+        
+        }
+
+#countdown h2{
+        justify-content: center;
+        text-align:center;
+        }
+        
+#countdown img {
+        height:200px;
+        width:300px;
+        justify-content:center;
+        text-align:center;
+        display:inline-block;
+        }
+        
+.ytp-cued-thumbnail-overlay-image {
+    background-size: contain;
+    -moz-background-size: contain;
+}
+
+#video iframe {
+    width:300px;
+    height:200px;
+}
+        
+/*Small devices (landscape phones, 576px and up) */ 
+@media (min-width: 576px) {
+
+#logo_image {
+    width:175px;
+}
+
+}
+
+/* Medium devices (tablets, 768px and up) */ 
+@media (min-width: 768px) {
+    
+#logo_image {
+    width:200px;
+    height:60px;
+}
+
+    
+#countdown{
+        height:400px;
+        width:600px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+#logo_image {
+    width:250px;
+}
+
+#video iframe {
+    width:600px;
+    height:400px;
+}
+
+}

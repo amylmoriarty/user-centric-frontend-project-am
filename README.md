@@ -13,6 +13,8 @@ HTML
 CSS
 Javascript
 Bootstrap (v 4.3.1)
+Jquery (v 3.3.1)
+Popper.js (v 1.14.7)
 
 ## Features
 
@@ -31,7 +33,11 @@ Bootstrap (v 4.3.1)
 
 
 ### Media
-All photos were taken from [Pexels](https://www.pexels.com), a stock image library.
+Media used was taken from [Smashing Pumpkins](https://www.smashingpumpkins.com/home) official website.
+The favicon is a cropped version of a [banner image](https://www.smashingpumpkins.com/images/saosb.png) also found on their official website.
+All other photos were taken from [Pexels](https://www.pexels.com), a stock image library.
+
+Album review from [NME Magazine](https://www.nme.com/reviews/album/smashing-pumpkins-shiny-and-oh-so-bright-vol-1-review)
 
 ### Acknowledgements
 
