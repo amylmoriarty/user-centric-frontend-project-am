@@ -1,6 +1,6 @@
 
 
-var countDownDate = new Date("30 May 2019 19:00").getTime();
+var countDownDate = new Date("30 June 2019 19:00").getTime();
 
 var countdownfunction = setInterval(function() {
 

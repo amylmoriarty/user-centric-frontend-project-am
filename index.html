@@ -2,114 +2,159 @@
 <html lang="en">
 
 <head>
-     <!-- Required meta tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <script type="text/javascript" src="assets/js/index.js"></script>
-    <title>Amy Moriarty - Band Website</title>
-    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
-    
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <title>Amy Moriarty - Website</title>
+  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+
 </head>
 
 <body>
-   
-    
-  <section class="container-fluid" id="landing">
-         <!--navbar-->
+    <!--navbar-->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+      
+      <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#home">
         <img src="/assets/images/logo.png" alt="logo image" id="logo_image">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
         </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            
-           
-            <li class="nav-item active">
-              <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#gallery">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#music">Music</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#home">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#gallery">Gallery</a>
+            <a class="nav-item nav-link" href="#music">Music</a>
+            <a class="nav-item nav-link" href="#tickets">Tickets</a>
+            <a class="nav-item nav-link" href="#contact">Contact</a>
+          </div>
         </div>
       </nav>
     </header>
-        
-         <!--images here, make sure to add alt text-->
-    <div class="card-deck">
-      <div class="card">
-        <img src="/assets/images/acoustic-band-bass-811838.jpg" class="card-img-top" alt="...">
-          </div>
-      <div class="card">
-        <img src="/assets/images/applause-audience-band-761543.jpg" class="card-img-top" alt="...">
-          </div>
-      <div class="card">
-        <img src="/assets/images/adult-band-black-and-white-210766.jpg" class="card-img-top" alt="...">
-          </div>
-    </div>
-        
-       
-        <!--band bio-->
+    
+    <!--landing page-->
+  <section class="container-fluid" id="home">
+    
+    <!--band bio-->
     <div class="card">
       <div class="card-body">
         <blockquote class="blockquote mb-0">
           <p>"Rather than a '90s-rock pastiche, the reunited Pumpkins' comeback album is a showcase in artful songcraft"</p>
-            <footer class="blockquote-footer">Andrew Trendell <cite title="https://www.nme.com/reviews/album/smashing-pumpkins-shiny-and-oh-so-bright-vol-1-review">NME Magazine</cite></footer>
-            </blockquote>
-          </div>
-        </div>
-        
+          <footer class="blockquote-footer">Andrew Trendell <cite title="https://www.nme.com/reviews/album/smashing-pumpkins-shiny-and-oh-so-bright-vol-1-review">NME Magazine</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+
   </section>
-
-  <section class="container-fluid" id="video">
-        
-        <!--video clip, make sure its accessible-->
-    <p>Video clip from youtube here</p>
-        <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pSb9YSr38u8" allowfullscreen></iframe>
+  
+  <section class="container-fluid" id="gallery">
+      <div class="card-deck">
+        <div class="card">
+          <div class="card-body">
+           <img src="/assets/images/acoustic-band-bass-811838.jpg" alt="...">
           </div>
-        <!--footer with social media links here-->
-        <footer
-          <p>Footer content here</p>
-        
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Music</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
         </div>
-      </nav>
-    </footer>
-    </section>
+        <div class="card">
+          <div class="card-body">
+           <img src="/assets/images/audio-band-black-and-white-9137.jpg" alt="...">
+          </div>
+        </div>
+      <div class="card">
+        <div class="card-body">
+         <img src="/assets/images/audience-band-black-and-white-167579.jpg" alt="...">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="/assets/images/artist-band-bass-92080.jpg" alt="...">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="/assets/images/adult-band-concert-995301.jpg" alt="...">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img src="/assets/images/black-and-white-concert-festival-210922.jpg" alt="...">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <!--music section-->
+  <section class="container-fluid" id="music">
+    <!--video clip, make sure its accessible-->
+    <div class="embed-responsive embed-responsive-16by9" id ="video">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pSb9YSr38u8" allowfullscreen></iframe>
+    </div>
+    
+    <div class='embed-container'>
+      <iframe src='https://embed.spotify.com/album/20tssRttKLtNfZBlLXzrSs' frameborder='0' allowtransparency='true'></iframe>
+    </div>
+      
+  </section>
+  
+  <!--countdown timer & tickets section-->
+  <section class="container-fluid" id="tickets">
+    <div id="countdown">
+      <div class="card">
+        <h4>Next Concert <br> Thursday, June 30th, 2019 at 7pm</h4>
+      </div>
+      <div class="card">
+        <img src="" alt="sound wave image">
+      </div>
+      <div class="card">
+        <p id="timer"></p>
+      </div>
+    </div>
+  </section>
+  
+  
 
-
-
-
+  
+   <!--contact section-->
+  <section class="container-fluid" id="contact">
+  </section>
+  
+  <!--footer with social media links-->
+  <footer class ="footer">
+    <nav class="navbar navbar-dark bg-dark">
+        <ul>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com/smashingpumpkins"><i class='fab fa-facebook-f'></i> Facebook</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://twitter.com/SmashingPumpkin"><i class='fab fa-twitter'></i> Twitter</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://open.spotify.com/artist/40Yq4vzPs9VNUrIBG5Jr2i"><i class='fab fa-spotify'></i> Spotify</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href=""><i class='fab fa-youtube'></i> ##</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=""><i class=''></i> ##</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=""><i class=''></i> ##</a>
+          </li>
+          
+        </ul>
+    </nav>
+  </footer>
+    
+  <!-- Script source files -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="assets/js/index.js"></script>
 </body>
 
-    
 </html>
