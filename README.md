@@ -1,9 +1,9 @@
 # Amy Moriarty User Centric Frontend Project
 Stream One Project: User-Centric Frontend Development - Code Institute
-This is a frontend website for a band to assist them to book gigs. 
+This is a frontend website for a band to assist them to showcase their music and assist them to book gigs. 
 
 ## Demo
-A live demo can be found [here](https://user-centric-frontend-project-am-amylmoriarty.c9users.io/index.html)
+A live demo can be found [here](https://amylmoriarty.github.io/user-centric-frontend-project-am/)
 
 ## UX
 
