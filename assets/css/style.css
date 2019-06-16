@@ -39,21 +39,20 @@ header {
 .navbar button {
     padding:0 5px 0 5px;
     }
-
+    
 #home {
     color:#DCDEE5;
     justify-content:center;
     align-items:center;
-    background:url(/assets/images/audience-band-concert-1105666.jpg) no-repeat center center fixed;
+    background:url(/assets/images/audio-band-black-and-white-9137.jpg) no-repeat center center fixed;
     display:table;
     height: 100%;
     position:relative;
     width:100%;
     background-size:cover;
     -moz-background-size: cover;
-    padding-top:60px;
-    margin-bottom:20px;
-    justify-content:flex-end;
+    padding: 60px 0 0 0;
+    margin: 0 0 20px 0;
     }
     
     
@@ -61,7 +60,7 @@ header {
     align-self:flex-end;
     margin-top:300px;
     color:white;
-    background-color:rgb(50, 57, 63, 0.5)
+    background-color:rgb(50, 57, 63, 0.5);                                                    
     }
     
 .blockquote-footer {
@@ -70,7 +69,7 @@ header {
     }
  
 #countdown {
-    width:80%;
+    width:100%;
     flex-direction:row;
     justify-content:center;
     align-items: center;
@@ -117,30 +116,42 @@ header {
     }
 
 #gallery {
-    margin-bottom:20px;
-    padding-top:80px;
-    
+    padding: 60px 0 0 0;
+    margin: 0 0 20px 0;
+    width: 100%;
+   
+    }
+
+/*Portfolio*/
+.portfolio{
+    position: relative;
+    }
+
+.portfolio h1{
+    color:#a9b3bc;
+    margin:32px 0 0 0;
     }
     
-#gallery .card img {
-    width:300px;
-    height:auto;
-    padding:0 0 0 0;
+    
+.portfolio img{
+    height: auto;
+    width: 100%;
+    margin:16px 0 0 0;
     }
 
 #music {
-    margin-bottom:20px;
-    padding-top:80px;
+    padding: 60px 0 0 0;
+    margin: 0 0 20px 0;
     }
     
 #tickets {
-    margin-bottom:20px;
-    padding-top:80px;
+    padding: 60px 0 0 0;
+    margin: 0 0 20px 0;
     }
 
 #contact {
-    margin-bottom:20px;
-    padding-top:80px;
+    padding: 60px 0 0 0;
+    margin: 0 0 20px 0;
     }
     
 .embed-container {
@@ -177,7 +188,7 @@ header {
 .blockquote{
     margin-top:400px;
     }
-    
+
 #video iframe {
     width:400px;
     height:300px;
@@ -191,15 +202,6 @@ header {
 .blockquote{
     margin-top:400px;
     }
-    
-#gallery {
-    flex-direction:row no-wrap;
-    }
-
-#gallery .card img {
-    width:300px;
-}
-
 
 #video iframe {
     width:400px;
