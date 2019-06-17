@@ -59,13 +59,13 @@ header {
 .blockquote{
     align-self:flex-end;
     margin-top:300px;
-    color:white;
+    color:#DCDEE5;
     background-color:rgb(50, 57, 63, 0.5);                                                    
     }
     
 .blockquote-footer {
     align-self:flex-end;
-    color:rgb(255, 255, 255);
+    color:#DCDEE5;
     }
  
 #countdown {
@@ -142,6 +142,16 @@ header {
 #music {
     padding: 60px 0 0 0;
     margin: 0 0 20px 0;
+    color:#DCDEE5;
+    justify-content:center;
+    align-items:center;
+    background:url(/assets/images/black-and-white-brand-data-145707.jpg) no-repeat center center fixed;
+    display:table;
+    height: 600px;
+    position:relative;
+    width:100%;
+    background-size:cover;
+    -moz-background-size: cover;
     }
     
 #tickets {
@@ -171,6 +181,27 @@ header {
     width: 100%;
     height: 100%;
     }
+    
+.contact-form{
+    margin: 6em 0;
+    position: relative;  
+    }
+.contact-form h1{
+    padding:2em 1px;
+    color: #F97300; 
+    }
+.contact-form .right{
+    max-width: 600px;
+    }
+.contact-form .right .btn-secondary{
+ background:  #F97300;
+ color: #fff;
+ border:0;
+}
+.contact-form .right .form-control::placeholder{
+ color: #888;
+ font-size: 16px;
+}
     
 .footer {
     background-color:#191919;
