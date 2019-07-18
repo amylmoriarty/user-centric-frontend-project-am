@@ -35,6 +35,7 @@ Popper.js (v 1.14.7)
 ### Media
 Logo from [Smashing Pumpkins](https://www.smashingpumpkins.com/home) official website.
 The favicon is a cropped version of a [banner image](https://www.smashingpumpkins.com/images/saosb.png) also found on their official website.
+Album artwork from [Smashing Pumpkins Wikipedia](https://en.wikipedia.org/wiki/The_Smashing_Pumpkins_discography) page.
 All other photos from [Pexels](https://www.pexels.com), a stock image library.
 
 Album review from [NME Magazine](https://www.nme.com/reviews/album/smashing-pumpkins-shiny-and-oh-so-bright-vol-1-review)
