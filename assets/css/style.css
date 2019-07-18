@@ -44,7 +44,7 @@ header {
 #home {
     justify-content: center;
     align-items: center;
-    background: url(assets/images/landing-image.jpg) no-repeat center center fixed;
+    background: url(../assets/images/landing-image.jpg) no-repeat center center fixed;
     display: table;
     height: 100%;
     position: relative;
@@ -145,7 +145,7 @@ h1 {
     color: rgb(50, 57, 63, 0.5);
     justify-content: center;
     align-items: center;
-    background: url(assets/images/music-background-image.jpg) no-repeat center center fixed;
+    background: url(../assets/images/music-background-image.jpg) no-repeat center center fixed;
     display: table;
     height: 100%;
     position: relative;
