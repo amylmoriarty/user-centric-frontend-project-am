@@ -42,7 +42,6 @@ header {
 }
 
 #home {
-    color: #DCDEE5;
     justify-content: center;
     align-items: center;
     background: url(/images/landing-image.jpg) no-repeat center center fixed;
